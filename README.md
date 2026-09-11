@@ -1,5 +1,7 @@
 # template-create
 
+[![skills.sh](https://skills.sh/b/BILDIT-LLC/template-create)](https://skills.sh/BILDIT-LLC/template-create/template-create)
+
 Claude skill for creating **BILDIT CMS templates** (v1 `$()` or v2 JSDoc) via the BILD CLI.
 
 One skill, two exclusive routes:
@@ -12,7 +14,15 @@ One skill, two exclusive routes:
 Shared CLI / fields / helpers: [`reference.md`](./reference.md)  
 Examples: [`examples.md`](./examples.md)
 
-## Install (Claude Code)
+## Install
+
+```bash
+npx skills add BILDIT-LLC/template-create
+```
+
+Directory: [skills.sh/BILDIT-LLC/template-create/template-create](https://skills.sh/BILDIT-LLC/template-create/template-create)
+
+### Claude Code (git clone)
 
 ```bash
 # Personal skills
