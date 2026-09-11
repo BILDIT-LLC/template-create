@@ -187,7 +187,7 @@ bild template validate path/to/file.tsx
 bild template legacy validate path/to/file.tsx
 ```
 
-Skip validate if `bild` is not installed and the user did not ask to upload. **CMS upload** requires `@bildit-platform/bild-cli` (`npm install -g @bildit-platform/bild-cli`) — install that package only when uploading. Never `npx tsc --noEmit` or add preview/TypeScript packages.
+Skip validate if `bild` is not installed and the user did not ask to upload. **CMS upload** requires `@bildit-platform/bild-cli` (`npm install -g @bildit-platform/bild-cli`) — install that package only when uploading. Never run a TypeScript compiler check or add preview/TypeScript packages.
 
 v1 `$()` is invalid TS on the library file itself — that is expected. Do not typecheck by installing a compiler.
 

@@ -89,7 +89,7 @@ bild template validate <dest>/<slug>.tsx
 bild template legacy validate <dest>/<slug>.tsx
 ```
 
-Use `bild` only if it is already installed. **Do not** `npm install`, `npx tsc`, wire `preview/`, or register `TemplateRenderer` unless the user asks.
+Use `bild` only if it is already installed. **Do not** `npm install`, run a TypeScript compiler check, wire `preview/`, or register `TemplateRenderer` unless the user asks.
 
 ## Step 5 — Handoff
 

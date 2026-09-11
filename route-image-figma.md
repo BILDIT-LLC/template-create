@@ -88,7 +88,7 @@ v1 annotations / v2 `@target` on the real nodes.
 
 Same sidecar JSON as Route A. Run `bild template validate` / `legacy validate` only if `bild` is already on PATH.
 
-**Do not** `npm install`, `npx tsc`, start the preview app, or wire `SOURCE_DIRS` / `TemplateRenderer` unless the user asks.
+**Do not** `npm install`, run a TypeScript compiler check, start the preview app, or wire `SOURCE_DIRS` / `TemplateRenderer` unless the user asks.
 
 ## Step 6 — Handoff
 
